@@ -1,0 +1,98 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    /*flex-direction: column;*/
+    /*flex-direction: row-reverse;*/ flex-direction: row;  /* default */
+    /*flex-direction: column-reverse;*/
+
+    /* JUSTIFY CONTENT (ALONG MAIN AXIS!!) */
+
+    /*justify-content: flex-start;*/    /* (default) */
+    justify-content: center; /*justify-content: flex-end;*/
+    /*justify-content: space-between;*/ /*justify-content: space-evenly;*/
+    /*justify-content: space-around;*/
+    
+    /* WRAP ( INTRO TO CROSS AXIS?? ) */ 
+    /*flex-wrap: nowrap;*/ flex-wrap: wrap; /*flex-wrap: wrap-reverse;*/
+
+    /* Align Item (ALONG CROSS AXIS!!) */
+    /*align-items: flex-start;*/ /*(default)*/ /*align-items: flex-end;*/
+    /*align-items: center;*/ /*align-items: baseline;*/
+
+    /* ALLIGN CONTENT (CROSS AXIS PROPERTY) */
+    /*align-content: center;*/ /*align-content: flex-start;*/
+    /*align-content: flex-end;*/ /*align-content: space-between;*/ 
+    /*align-content: space-around;*/ /*align-content: space-evenly;*/
+
+}
+/* ALLIGN SELF (CROSS AXIS PROPERTY) */
+#container div:nth-of-type(2){
+    align-self: center;
+}
+#container div:nth-of-type(3){
+    align-self: flex-end;
+}
+#container div:nth-of-type(4){
+    align-self: center;
+}
+/*#container div:nth-of-type(5){
+    align-self: flex-end;
+}*/
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#container2{
+    background-color: #003049;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row; /*flex-direction: column;*/
+    justify-content: center;
+}
+
+#container2 div{
+    width: 200px;
+    height: 200px;
+    min-width: 200px;;
+    text-align: center;
+    flex-basis: 200px;
+}
+#container2 div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+#container2 div:nth-of-type(5){
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+/* FLEX SHORTHAND */
+main .sidebar{
+    background-color: #6930c3;
+    flex: 1 2 300px;
+}
+main .maincontent{
+    background-color: #64dfdf;
+    flex: 2 1 800px;
+}

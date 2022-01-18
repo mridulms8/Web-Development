@@ -1,0 +1,27 @@
+h2{
+    color: blue;
+    font-family: fantasy;
+}
+button{
+    background-color: pink;
+    color: purple;
+}
+p{
+    background-color: gray;
+}
+h2{
+    letter-spacing: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: red underline;
+    font-family: Avant Garde, Futura, Arial, sans-serif;
+}
+span{
+    text-decoration: line-through;
+}
+p{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+html{
+    font-size: 20px;
+}
+section{
+    width: 400px;
+    height: 400px;
+    background-color: hotpink;
+}
+div{
+    width: 50%;
+    height: 60%;
+    background-color: grey;
+}
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+/* ems and percentages are better units as compared to px because of their relative properties*/
+#ems h2{
+    font-size: 2em;
+    margin: 1em;
+}
+#ems h3{
+    font-size: 1.2em;
+}
+#ems{
+    font-size: 20px;
+}
+#ems p{
+    font-size: 0.8em;
+}
+button{
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: lightseagreen;
+    color: blue;
+}
+#ems ul{
+    font-size: 1.5em;
+}
+#rems h2{
+    font-size: 2rem;
+    margin: 1rem;
+}
+#rems{
+    font-size: 1rem;
+}
+#rems p{
+    font-size: 0.8rem;
+}
+#rems button{
+    font-size: 1rem;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: lightseagreen;
+    color: blue;
+}
