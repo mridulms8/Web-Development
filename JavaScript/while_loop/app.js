@@ -1,0 +1,7 @@
+const secret = 'SecretCode';
+let guess = prompt('ENTER THE SECRET CODE');
+while (guess != secret) {
+    guess = prompt('ENTER THE SECRET CODE');
+}
+alert('CONGRATULATIONS! YOU HAVE ENTERED THE RIGHT CODE. NOW YOU CAN READ YOUR MESSAGE.');
+console.log('CONGRATULATIONS! YOU HAVE ENTERED THE RIGHT CODE. NOW YOU CAN READ YOUR MESSAGE.');
