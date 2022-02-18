@@ -24,8 +24,28 @@ callThreeTimes(rollDie);*/
     }
 }*/
 
-function ageRange(min, max) {
+/*function ageRange(min, max) {
     return function (num) {
         return num >= min && num <= max;
     };
+}*/
+let square = function (num) {
+    return num * num;
+}
+function ageRange(min, max) {
+    return function (age) {
+        if (age > min && age < max) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+const cat = {
+    name: 'Blue',
+    color: 'grey',
+    meow() {
+        console.log(`${this.name} says meeeoowwwww`);
+    }
 }

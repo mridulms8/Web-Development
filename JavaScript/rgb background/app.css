@@ -1,0 +1,11 @@
+div{
+    margin: auto;
+}
+#rgb{
+    display: block;
+    margin: auto;
+    padding: 3px 4px;
+    border: solid 3px black;
+    border-radius: 5px;
+    font-weight: 600;
+}
