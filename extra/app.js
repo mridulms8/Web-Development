@@ -1,0 +1,1 @@
+const col = document.querySelector('.col-6')

@@ -9,7 +9,7 @@ nav.append(h1);
 const btn = document.querySelector('#rgb');
 const body = document.querySelector('body');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('mouseenter', () => {
     body.style.backgroundColor = `rgb(${Math.ceil(Math.random() * 255)},${Math.ceil(Math.random() * 255)},${Math.ceil(Math.random() * 255)})`;
     btn.style.color = body.style.backgroundColor;
     btn.style.borderColor = `rgb(${Math.ceil(Math.random() * 255)},${Math.ceil(Math.random() * 255)},${Math.ceil(Math.random() * 255)})`;
