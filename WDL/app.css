@@ -1,0 +1,10 @@
+#burger{
+    border: solid 4px black;
+    height: 30px;
+    width: 30px;
+    transform: rotate(0.25turn);
+}
+h1{
+    display: inline;
+    margin-left: 1.5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <nav>
+        <button id="name">Mridul Sharma</button>
+        <div id="workbtn">
+            <button class="btn1" id="home">Home</button>
+            <button class="btn1" id="about">About</button>
+            <form action="https://github.com/mridulms8">
+                <button class="btn1">Github</button>
+            </form>
+        </div>
+        <div id="skillsbtn">
+            <form action="https://www.linkedin.com/in/mridul-sharma-b06b93201/">
+                <button class="btn2"><i class="fa-brands fa-linkedin"></i></button>
+            </form>
+            <button class="btn2" id="email" onclick="copyText()"><i class="fa-solid fa-envelope"></i></button>
+            <button id="color">Original</button>
+        </div>
+    </nav>
+    <section>
+        <div id="abt1">
+            <img style="height: 300px; width: 300px; border-radius: 50%;"
+                src="https://images.unsplash.com/photo-1653592328269-09c14b3628f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                alt="">
+            <div id="abt2">
+                <h1>MRIDUL SHARMA</h1>
+                <h2>C++ Programming | Web Development</h2>
+                <h3>B.Tech Information Technology</h3>
+                <h3>NIT Srinagar</h3>
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+    </section>
+    <script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("sharmamridulms8@gmail.com");
+        }
+    </script>
+    <script src="app.js"></script>
+    <!-- <img src="image.png" alt=""> -->
+</body>
+
+</html>

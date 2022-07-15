@@ -1,0 +1,131 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: url(about.jpg);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    height: 660px;
+    width: 1200px;
+    background-color: grey;
+    font-size: 0;
+    margin: 30px 145px;
+}
+
+#content {
+    margin: 0px 50px;
+    display: inline-block;
+    width: 1100px;
+    height: 660px;
+}
+
+div:nth-of-type(2n+1) {
+    margin-left: 50px;
+}
+
+.photo {
+    display: inline-block;
+    font-size: 18px;
+    height: 220px;
+    width: 500px;
+    text-align: center;
+    border-width: 0;
+}
+
+#cpp {
+    background: no-repeat center/cover url(cpp.jpg);
+    color: rgba(255, 255, 255, 0);
+}
+
+#about {
+    background: no-repeat center/cover url(about.jpg);
+    color: white;
+}
+
+#study {
+    background: no-repeat center/cover url(nit.jpg);
+    color: rgba(255, 255, 255, 0);
+    transition: all 400ms;
+}
+
+#study>a {
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+#study>a:hover {
+    text-decoration: underline;
+}
+
+#study:hover {
+    opacity: 0.6;
+    color: rgba(255, 255, 255, 1);
+}
+
+#study>h3:hover {
+    text-decoration: underline;
+}
+
+#webDev {
+    background: no-repeat center/cover url(img.png);
+    color: rgba(255, 255, 255, 0);
+}
+
+#socials {
+    background: no-repeat center/cover url(social.jpg);
+    transition: all 400ms;
+}
+
+#in {
+    margin-top: 50px;
+}
+
+#in:hover {
+    cursor: pointer;
+    color: blue;
+    border-color: blue;
+}
+
+#mail {
+    margin-top: 20px;
+}
+
+#mail:hover {
+    cursor: grab;
+    color: red;
+    border-color: red;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 5px 9px;
+    border: solid 1px white;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+#projects {
+    transition: all 400ms;
+    background: no-repeat center/cover url(projex.jpg);
+}
+
+#github {
+    background-color: rgb(44, 83, 120);
+    border-radius: 5px;
+    border-width: 0px;
+    margin-top: 92px;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+
+#github:hover {
+    background-color: rgb(18, 38, 56);
+    cursor: pointer;
+}

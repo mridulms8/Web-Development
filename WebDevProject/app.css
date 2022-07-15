@@ -1,0 +1,107 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(227, 137, 191);
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+/* #name {
+    height: 40px;
+} */
+
+nav {
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #72cdd6;
+}
+
+nav button {
+    background-color: rgb(75, 46, 46);
+    border: none;
+    color: white;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#workbtn {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+
+#skillsbtn {
+    display: flex;
+}
+
+button {
+    transition: all 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(109, 85, 91);
+    background-color: rgb(86, 61, 61);
+    border-radius: 5px;
+}
+
+button:active {
+    box-shadow: 4px 4px 10px #4f1f0663;
+}
+
+#email:hover {
+    cursor: grab;
+}
+
+.btn1 {
+    margin: 0 30px;
+}
+
+.btn2 {
+    margin: 0 15px;
+    /* color: rgb(207, 102, 197); */
+}
+
+img {
+    transition: 0.5s;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+#abt1 {
+    margin: 200px;
+    width: 700px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#abt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* img {
+    display: none;
+    margin: 40px 450px 0px 450px;
+    height: 700px;
+    width: 650px;
+} */

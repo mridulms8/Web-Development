@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section>
+        <div id="content">
+            <div class="photo" id="cpp">
+                <h2>MRIDUL SHARMA<br>
+                    2020BITE025</h2>
+                <h3>C++ Programming | Web Development</h3>
+            </div>
+            <div class="photo" id="about">
+                <h2>MRIDUL SHARMA<br>
+                    2020BITE025</h2>
+                <h3>C++ Programming | Web Development</h3>
+            </div>
+            <div class="photo" id="study">
+                <h2>B.Tech. Information Technology<br>
+                    2020 - 2024</h2>
+                <a href="https://nitsri.ac.in/">
+                    <h3>National Institute of Technology<br>
+                        Srinagar, Hazratbal</h3>
+                </a>
+            </div>
+            <div class="photo" id="webDev">
+                <h2>B.Tech. Information Technology<br>
+                    2020 - 2024</h2>
+                <h3>National Institute of Technology<br>
+                    Srinagar, Hazratbal</h3>
+            </div>
+            <div class="photo" id="socials">
+                <form action="https://www.linkedin.com/in/mridul-sharma-b06b93201/">
+                    <button id="in"><i class="fa-brands fa-linkedin-in"></i></button>
+                </form>
+                <button id="mail" onclick="copyText()"><i class="fa-solid fa-envelope"></i></button>
+            </div>
+            <div class="photo" id="projects">
+                <form action="https://github.com/mridulms8">
+                    <button id="github">Projects</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("sharmamridulms8@gmail.com");
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
